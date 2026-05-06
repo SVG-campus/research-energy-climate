@@ -1,6 +1,6 @@
 # Pillar progress — `research-energy-climate`
 
-**Overall solution proximity (rubric): ~26%** (engineering scenarios can advance faster once real series are pinned).
+**Overall solution proximity (rubric): ~28%** (engineering scenarios can advance faster once real series are pinned).
 
 See: [meta `docs/PILLAR_PROGRESS.md`](https://github.com/SVG-campus/Research-Apriori/blob/main/docs/PILLAR_PROGRESS.md).
 
@@ -8,7 +8,7 @@ See: [meta `docs/PILLAR_PROGRESS.md`](https://github.com/SVG-campus/Research-Apr
 |------|---:|------|
 | Charter + prereg | 45 | Multiple scenario notebooks |
 | Layer A / nulls | 18 | Add bootstrap / scenario bands with seeds |
-| Reproducibility | 40 | Submodule CI |
+| Reproducibility | **43** | `runs/smoke.yaml` |
 | Domain data | 15 | Pin ERA5/FRED/ISO-style streams in `datasets.yaml` |
 
 ## Links
