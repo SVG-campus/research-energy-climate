@@ -13,3 +13,11 @@ huggingface:
 kaggle: []
 
 search_keywords: [hourly electricity demand, ERA5 extract, carbon removal pilot]
+
+reference_streams:
+  - name: Copernicus Climate Data Store (ERA5)
+    url: https://cds.climate.copernicus.eu
+    note: Reanalysis grids for weather-linked energy scenarios (API key required).
+  - name: OpenEI Utility Rate Database (reference)
+    url: https://openei.org/wiki/Utility_Rate_Database
+    note: Tariffs / benchmarks for techno-economic sanity checks.
