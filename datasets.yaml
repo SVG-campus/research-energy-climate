@@ -9,10 +9,15 @@ huggingface:
     split: train[:2%]
     streaming: true
     note: Tiny GLUE stream for CI / dataloader sanity — replace with domain datasets as charters land.
+  - repo_id: MWasil/Open_Meteo_weather_dataset_from_2024_to_2025
+    split: train[:1%]
+    streaming: true
+    note: Hourly met tabular smoke for energy-relevant regressions (verify schema drift on Hub).
 
 kaggle: []
 
-search_keywords: [hourly electricity demand, ERA5 extract, carbon removal pilot]
+
+search_keywords: []
 
 reference_streams:
   - name: Copernicus Climate Data Store (ERA5)
@@ -21,3 +26,4 @@ reference_streams:
   - name: OpenEI Utility Rate Database (reference)
     url: https://openei.org/wiki/Utility_Rate_Database
     note: Tariffs / benchmarks for techno-economic sanity checks.
+
