@@ -11,8 +11,8 @@ See the full rubric and sibling pillars: [meta `docs/PILLAR_PROGRESS.md`](https:
 | Axis | % | Note |
 |------|---:|------|
 | Charter + prereg | 56 | `docs/PREREG.md` + `METHODS.md` |
-| Layer A / nulls | 40 | Permutation + bootstrap + **domain charter stream** notebook (CI) |
-| Reproducibility | 78 | `runs/smoke.yaml`, `runs/ci_notebooks.yaml`, `methodology_preamble`, pytest + headless CI (six CI notebooks (adds `CHARTER_OPEN_METEO_STREAM_SMOKE` on Open-Meteo stream)) |
+| Layer A / nulls | 42 | Permutation + bootstrap + **`CHARTER_LAYER_A_MULTIDRAW_SMOKE`** + **domain charter stream** notebook (CI) |
+| Reproducibility | 78 | `runs/smoke.yaml`, `runs/ci_notebooks.yaml`, `methodology_preamble`, pytest + headless CI (seven CI notebooks: adds `CHARTER_LAYER_A_MULTIDRAW_SMOKE` before domain stream charter) |
 | Domain data | 42 | `datasets.yaml` Hub pins + `reference_streams` + charter stream smoke |
 
 ## Links
