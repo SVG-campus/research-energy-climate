@@ -12,7 +12,7 @@ huggingface:
   - repo_id: MWasil/Open_Meteo_weather_dataset_from_2024_to_2025
     split: train[:1%]
     streaming: true
-    note: Hourly met tabular smoke for energy-relevant regressions (verify schema drift on Hub).
+    note: Pinned for `CHARTER_OPEN_METEO_STREAM_SMOKE` CI + pytest stream smoke (verify schema drift on Hub).
 
 kaggle: []
 
