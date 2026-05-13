@@ -8,11 +8,11 @@ huggingface:
     config: cola
     split: train[:2%]
     streaming: true
-    note: Tiny GLUE stream for CI / dataloader sanity — replace with domain datasets as charters land.
+    note: Tiny GLUE stream for CI / dataloader sanity only — **not** weather/climate physics evidence (text proxy).
   - repo_id: MWasil/Open_Meteo_weather_dataset_from_2024_to_2025
     split: train[:1%]
     streaming: true
-    note: Pinned for `CHARTER_OPEN_METEO_STREAM_SMOKE` CI + pytest stream smoke (verify schema drift on Hub).
+    note: Hub **tabular weather stream** pinned for `CHARTER_OPEN_METEO_STREAM_SMOKE` + pytest — methodological sanity + schema guard, not a policy-grade load/weather attribution baseline (watch Hub schema drift).
 
 kaggle: []
 
@@ -22,8 +22,8 @@ search_keywords: []
 reference_streams:
   - name: Copernicus Climate Data Store (ERA5)
     url: https://cds.climate.copernicus.eu
-    note: Reanalysis grids for weather-linked energy scenarios (API key required).
+    note: Domain-native **reanalysis grids** reference (API key required) — not the same artifact as the HF Open-Meteo stream charter; use when charters demand gridded climate baselines.
   - name: OpenEI Utility Rate Database (reference)
     url: https://openei.org/wiki/Utility_Rate_Database
-    note: Tariffs / benchmarks for techno-economic sanity checks.
+    note: Tariffs / benchmarks for techno-economic context (off-Hub reference; verify terms before treating as canonical).
 
