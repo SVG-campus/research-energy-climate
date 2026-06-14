@@ -1,6 +1,6 @@
 # Pillar progress — `research-energy-climate`
 
-**Overall solution proximity (rubric v2): ~55%** toward a defensible, preregistered answer for this pillar’s charter.
+**Overall solution proximity (rubric v2): ~60%** toward a defensible, preregistered answer for this pillar’s charter.
 
 Formula (same as meta `docs/PILLAR_PROGRESS.md`): `round(0.30×charter + 0.30×LayerA + 0.25×repro + 0.15×data)` on 0–100 subscores.
 
@@ -10,7 +10,7 @@ See the full rubric and sibling pillars: [meta `docs/PILLAR_PROGRESS.md`](https:
 
 | Axis | % | Note |
 |------|---:|------|
-| Charter + prereg | 56 | `docs/PREREG.md` + `METHODS.md` |
+| Charter + prereg | 70 | Completed `docs/PREREG.md` for weather-to-demand causal mapping + `METHODS.md` |
 | Layer A / nulls | 42 | Permutation + bootstrap + **`CHARTER_LAYER_A_MULTIDRAW_SMOKE`** + **domain charter stream** notebook (CI) |
 | Reproducibility | 79 | `runs/smoke.yaml`, `runs/ci_notebooks.yaml`, `methodology_preamble`, pytest + headless CI (seven CI notebooks: adds `CHARTER_LAYER_A_MULTIDRAW_SMOKE` before domain stream charter); `runs/promotion_audit.example.yaml` **`trace_run_ids`** + schema test in CI |
 | Domain data | 42 | `datasets.yaml` Hub pins + `reference_streams` + charter stream smoke |
