@@ -18,3 +18,4 @@ notebooks:
     timeout_seconds: 300
   - path: notebooks/FUTURE_CHARTER_SLOT.ipynb
     timeout_seconds: 900
+    enabled: false

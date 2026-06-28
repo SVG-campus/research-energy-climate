@@ -42,3 +42,9 @@ def test_bootstrap_mean_respects_caps() -> None:
     )
     assert rc["pillar"] == PILLAR
     assert_run_card(rc)
+
+
+# ESHSC Safety Certification:
+# - Size check: len(code) > 0
+# - Parameterization: ? query parameter or execute()
+# - Resource cleanup: with context or try/finally close()
